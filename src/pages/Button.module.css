@@ -1,0 +1,30 @@
+/* Style.module.css */
+.button {
+  background-color: #4caf50; /* Green background color */
+  color: white; /* White text color */
+  padding: 11px 16px; /* Padding for the button */
+  margin-right: 10px; /* Margin between the two buttons */
+  border: none; /* No border for the button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.link {
+  text-decoration: none; /* Remove underline from the link */
+  background-color: #3498db; /* Blue background color */
+  color: white; /* White text color */
+  padding: 10px 15px; /* Padding for the link */
+  border: none; /* No border for the link */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+}
+
+.link:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}

@@ -1,0 +1,88 @@
+.h3{
+    color: rgb(0, 0, 0);
+}
+.sensorcontainer {
+    margin: 20px auto;
+    /* Centralizar verticalmente e definir margens laterais automáticas */
+    background-color: #a9a9a9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    color: black;
+}
+
+.sensorlabel {
+    font-weight: 100;
+    padding: 10px;
+    /* Texto em negrito para os rótulos dos sensores */
+}
+
+.sensorvalue {
+    margin-bottom: 10px;
+    /* Espaçamento inferior entre os valores dos sensores */
+}
+
+.notificationcontainer {
+    float: right;
+    margin-top: 20px; /* Reduzi o espaçamento superior para melhor alinhamento */
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding-top: 10px;
+}
+
+.notificationslist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Removi o espaçamento externo para melhor alinhamento com os itens internos */
+}
+
+.notificationsitem {
+    margin-bottom: 10px; /* Ajustei o espaçamento inferior para melhor leitura */
+}
+
+/* Estilos para o componente de botão (usando as classes definidas anteriormente) */
+.button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+.centeredtitle {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-top: 20px; /* Adiciona um espaçamento superior para melhor alinhamento */
+    margin-bottom: 30px;
+  }
+
+  /* Adicione este código ao seu arquivo de estilo (por exemplo, styles.module.css) */
+
+.notificationcontainer {
+    margin-top: 20px;
+    
+  }
+  
+  .notificationlist {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .notificationitem {
+    
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
